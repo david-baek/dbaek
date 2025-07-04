@@ -59,7 +59,4 @@ features:
   privacy_pack:
     enable: false
 
-meta:
-  favicon:
-    enable: false
-    path: "static/favicon.ico"
+favicon: "/assets/media/favicon.ico"
