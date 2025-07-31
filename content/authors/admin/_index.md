@@ -53,35 +53,25 @@ interests:
 education:
   - area: PhD Computer Science
     institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-08-29
+    date_end: 2027-05-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      - Research Area: LLM Safety Post-training, Mechanistic Interpretability, AI Alignment
   - area: MS Computer Science
     institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-08-29
+    date_end: 2025-05-29
     summary: |
       GPA: 5.0/5.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Thesis: Generalization and Representation in Large Language Models
   - area: BS Physics & Computer Science
     institution: Seoul National University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2017-03-01
+    date_end: 2023-08-29
     summary: |
       GPA: 4.25/4.3
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Presidential Award (Ranked 1st among graduating cohort in College of Natural Sciences)
+      - Includes two years on leave for compulsory military service (2020-21, Job: Cyber Security Specialist)
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
