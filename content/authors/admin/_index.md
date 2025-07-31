@@ -52,20 +52,20 @@ interests:
 
 education:
   - area: PhD Computer Science
-    institution: Massachusetts Institute of Technology
+    institution: Massachusetts Institute of Technology (Cambridge, MA, USA)
     date_start: 2023-08-29
     date_end: 2027-05-30
     summary: |
-      - Research Area: LLM Safety Post-training, Mechanistic Interpretability, AI Alignment
+      - Research Area: AI Safety, LLM Alignment, Scalable Oversight
   - area: MS Computer Science
-    institution: Massachusetts Institute of Technology
+    institution: Massachusetts Institute of Technology (Cambridge, MA, USA)
     date_start: 2023-08-29
     date_end: 2025-05-29
     summary: |
       GPA: 5.0/5.0
       - Thesis: Generalization and Representation in Large Language Models
   - area: BS Physics & Computer Science
-    institution: Seoul National University
+    institution: Seoul National University (Seoul, Korea)
     date_start: 2017-03-01
     date_end: 2023-08-29
     summary: |
@@ -73,43 +73,30 @@ education:
       - Presidential Award (Ranked 1st among graduating cohort in College of Natural Sciences)
       - Includes two years on leave for compulsory military service (2020-21, Job: Cyber Security Specialist)
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Machine Learning Engineer/Researcher Intern
+    company_name: ByteDance (Seattle, WA, USA)
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2025-06-02
+    date_end: 2025-08-22
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Research on Multi-agent Reinforcement Learning and LLM Jailbreaking
+      - Developed Reasoning Models for e-commerce governance scenarios
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Python/PyTorch
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Data Science, SQL
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Research
         description: ''
         percent: 40
         icon: circle-stack
@@ -121,14 +108,14 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Piano
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: piano
+      - name: Cooking
         description: ''
         percent: 80
-        icon: camera
+        icon: cooking
 
 languages:
   - name: English
@@ -143,7 +130,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: Gold Level Certificate, WorldQuant Brain Platform
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Coursera
