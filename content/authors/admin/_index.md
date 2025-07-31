@@ -52,20 +52,20 @@ interests:
 
 education:
   - area: PhD Computer Science
-    institution: Massachusetts Institute of Technology (Cambridge, MA, USA)
+    institution: Massachusetts Institute of Technology
     date_start: 2023-08-29
     date_end: 2027-05-30
     summary: |
       - Research Area: AI Safety, LLM Alignment, Scalable Oversight
   - area: MS Computer Science
-    institution: Massachusetts Institute of Technology (Cambridge, MA, USA)
+    institution: Massachusetts Institute of Technology
     date_start: 2023-08-29
     date_end: 2025-05-29
     summary: |
       GPA: 5.0/5.0
       - Thesis: Generalization and Representation in Large Language Models
   - area: BS Physics & Computer Science
-    institution: Seoul National University (Seoul, Korea)
+    institution: Seoul National University
     date_start: 2017-03-01
     date_end: 2023-08-29
     summary: |
