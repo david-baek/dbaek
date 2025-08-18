@@ -1,16 +1,17 @@
 ---
-title: "An example journal article"
+title: "Physics-Inspired Effective Theory of Model Generalization"
 authors:
 - admin
-- Robert Ford
+- Ziming Liu
+- Max Tegmark
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2025-03-20T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-03-20T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,23 +19,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "Phys. Rev. E 111, 035307"
+publication_short: "Physical Review E"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We present GenEFT, an effective theory framework for shedding light on the statics and dynamics of neural network generalization, and illustrate it with graph learning examples. We first investigate the generalization phase transition as data size increases, comparing experimental results with information-theory-based approximations. We then introduce an effective theory for the dynamics of representation learning, where latent-space representations are modeled as interacting particles (“repons”), and find that it explains our experimentally observed phase transition between generalization and overfitting as encoder and decoder learning rates are scanned. This highlights the potential of physics-inspired effective theories for bridging the gap between theoretical predictions and practice in machine learning.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We present GenEFT, an effective theory framework for shedding light on the statics and dynamics of neural network generalization, and illustrate it with graph learning examples.
 
 tags:
-- Source Themes
-featured: false
+- Learning Theory
+featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://arxiv.org/pdf/2402.05916
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
