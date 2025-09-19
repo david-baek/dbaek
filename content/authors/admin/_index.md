@@ -69,7 +69,7 @@ education:
     date_start: 2017-03-01
     date_end: 2023-08-29
     summary: |
-      GPA: 4.25/4.3
+      GPA: 4.23/4.3
       - Presidential Award (Ranked 1st among graduating cohort in College of Natural Sciences)
       - Includes two years on leave for compulsory military service (2020-21, Job: Cyber Security Specialist)
 work:
