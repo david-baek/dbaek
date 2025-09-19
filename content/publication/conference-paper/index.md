@@ -27,8 +27,8 @@ publishDate: '2025-04-25T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *NeurIPS 2025* (Under Review)
-publication_short: In *NeurIPS 2025* (Under Review)
+publication: In *NeurIPS 2025* (Spotlight)
+publication_short: In *NeurIPS 2025* (Spotlight)
 
 abstract: For the first time, we propose a framework that quantifies the probability of successful oversight as a function of the capabilities of the overseer and the system being overseen. We also find scaling laws in four different oversight games that approximate how domain performance depends on general AI system capability.
 
