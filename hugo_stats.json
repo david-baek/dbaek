@@ -200,7 +200,6 @@
       "list-inside",
       "m-w-[130px]",
       "max-w-3xl",
-      "max-w-[500px]",
       "max-w-[65ch]",
       "max-w-none",
       "max-w-prose",
@@ -215,7 +214,6 @@
       "md:flex",
       "md:flex-row",
       "md:flex-shrink-0",
-      "md:grid-cols-1",
       "md:grid-cols-2",
       "md:grid-cols-3",
       "md:mt-12",
@@ -356,7 +354,6 @@
       "show-button",
       "site-header",
       "sun",
-      "talks",
       "teaching",
       "top"
     ]
