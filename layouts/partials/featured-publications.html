@@ -8,7 +8,7 @@
 <h3 class="pub-title svelte-f4d8od"><a href="{{ .paper_url }}">{{ .title }}</a></h3>
 <p class="pub-author svelte-f4d8od">{{ .authors | markdownify }}</p>
 <p class="pub-venue svelte-f4d8od">{{ .venue }}</p>
-<p class="pub-summary">{{ .summary }}</p>
+{{ with .summary }}<p class="pub-summary">{{ . }}</p>{{ end }}
 <p class="pub-icons svelte-f4d8od">
 {{ with .paper_url }}<a href="{{ . }}">Paper</a>{{ end }}
 {{ with .code_url }}<a href="{{ . }}">Code</a>{{ end }}
