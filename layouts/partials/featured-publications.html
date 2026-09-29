@@ -1,0 +1,21 @@
+<section aria-labelledby="publications-title" class="block-tb svelte-f4d8od" id="publications">
+{{ range $index, $pub := site.Data.publications }}
+<div class="pub-block svelte-f4d8od {{ if eq $index 0 }}has-block-name{{ end }}">
+{{ if eq $index 0 }}<h2 class="block-name svelte-f4d8od" id="publications-title">Featured Publications</h2>{{ end }}
+<div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od" id="{{ .id }}">
+<a class="pub-image" href="{{ .paper_url }}" aria-label="Read {{ .title }}"><img class="svelte-f4d8od" src="{{ .image }}" alt="{{ .image_alt }}" width="750" height="420" loading="lazy" decoding="async"></a>
+<div class="pub-content svelte-f4d8od">
+<h3 class="pub-title svelte-f4d8od"><a href="{{ .paper_url }}">{{ .title }}</a></h3>
+<p class="pub-author svelte-f4d8od">{{ .authors | markdownify }}</p>
+<p class="pub-venue svelte-f4d8od">{{ .venue }}</p>
+<p class="pub-summary">{{ .summary }}</p>
+<p class="pub-icons svelte-f4d8od">
+{{ with .paper_url }}<a href="{{ . }}">Paper</a>{{ end }}
+{{ with .code_url }}<a href="{{ . }}">Code</a>{{ end }}
+{{ with .x_url }}<a href="{{ . }}">X</a>{{ end }}
+</p>
+{{ with .award }}<span class="award-highlight svelte-f4d8od">{{ . }}</span>{{ end }}
+{{ with .bibtex }}<details class="citation"><summary>BibTeX</summary><pre>{{ . }}</pre></details>{{ end }}
+</div></article></div></div>
+{{ end }}
+</section>

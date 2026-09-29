@@ -1,0 +1,39 @@
+[
+  {
+    "id": "education", "title": "Education", "entries": [
+      {"dates": "Sep 2023–May 2027 (expected)", "organization": "Massachusetts Institute of Technology", "url": "https://www.eecs.mit.edu/", "role": "PhD in Electrical Engineering & Computer Science", "location": "Cambridge, MA", "description": "Advisor: Max Tegmark. GPA: 5.0/5.0. Research in responsible AI, large language models, and AI alignment."},
+      {"dates": "Mar 2017–Aug 2023", "organization": "Seoul National University", "url": "https://en.snu.ac.kr/", "role": "BS in Physics and Computer Science", "location": "Seoul, Korea", "description": "Summa cum laude, GPA: 4.23/4.3. Presidential Award: ranked first in the graduating cohort in the College of Natural Sciences. Includes compulsory military service as a Cyber Security Specialist (2020–21)."}
+    ]
+  },
+  {
+    "id": "experience", "title": "Research Experience", "entries": [
+      {"dates": "May–Aug 2026", "organization": "Google", "url": "https://about.google/", "role": "Software Engineer Intern (PhD)", "location": "Mountain View, CA", "description": "Mentor: Jiaqi Pan. Research on reinforcement learning and reward hacking in LLMs."},
+      {"dates": "Jun–Aug 2025", "organization": "ByteDance", "url": "https://www.bytedance.com/en/", "role": "Machine Learning Research/Engineer Intern", "location": "Bellevue, WA", "description": "Mentors: Jie Mei and Andrew Estornell. Research on multi-agent reinforcement learning and improving the safety and robustness of LLMs. Proposed a product moderation paradigm for TikTok Shop and trained a 7B model, saving $660k/year."},
+      {"dates": "Dec 2023–present", "organization": "Tegmark AI Safety Group", "url": "", "role": "Graduate Research Assistant", "location": "Cambridge, MA", "description": "Advisor: Max Tegmark. Studied the geometrical structure of representations in LLMs, with extensive experience in fine-tuning and training LLMs."}
+    ]
+  },
+  {
+    "id": "awards", "title": "Selected Honors & Awards", "entries": [
+      {"dates": "2024", "organization": "WorldQuant Brain Platform", "role": "Gold Level Certificate"},
+      {"dates": "2018", "organization": "University Physics Competition", "role": "Silver Medal"},
+      {"dates": "2018", "organization": "Samsung Collegiate Programming Cup", "role": "Finalist"},
+      {"dates": "2016", "organization": "Korean Mathematical Olympiad", "role": "Silver Medal, High School Division"},
+      {"dates": "2014", "organization": "International Junior Science Olympiad", "role": "Silver Medal"}
+    ]
+  },
+  {
+    "id": "skills", "title": "Technical Skills", "entries": [
+      {"organization": "Mathematics", "role": "Probability, statistics, stochastic processes, time series analysis, linear algebra, optimization"},
+      {"organization": "Programming", "role": "Python, C/C++, Java, Matlab, Mathematica, LaTeX, HTML, JavaScript"},
+      {"organization": "Libraries", "role": "PyTorch, TensorFlow, Hugging Face, Weights & Biases, NumPy, SciPy, QuTiP, Vue.js/Vuetify"},
+      {"organization": "Machine Learning", "role": "Large language models, diffusion models, computer vision, interpretability techniques"}
+    ]
+  },
+  {
+    "id": "service", "title": "Community & Mentoring", "entries": [
+      {"dates": "Nov 2023–present", "organization": "MIT Ashdown House", "role": "Chair of Publicity & Communications Committee"},
+      {"dates": "Jan 2024–Jan 2025", "organization": "MIT EECS Graduate Student Association", "role": "Vice President of Publicity"},
+      {"dates": "Spring 2025", "organization": "Undergraduate Research Mentoring", "role": "Riya Tyagi and Duru Ozer"}
+    ]
+  }
+]

@@ -1,51 +1,59 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# David Baek's website
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+Personal academic website at [dbaek.org](https://dbaek.org), built with Hugo.
+The visual design is adapted from [Jay Wang's website](https://zijie.wang/), with attribution in the footer.
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Edit featured publications
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+Edit **`data/publications.json`**. Entries appear in array order on both the homepage and CV.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- `title`, `authors`, `venue`, `summary`, and `award`: displayed paper information. Authors support Markdown, including `**bold**`.
+- `paper_url`, `code_url`, `x_url`: paper, code, and announcement links. Leave optional links empty (`""`) to hide them.
+- `bibtex`: the citation shown by the expandable BibTeX control. In JSON, use `\n` for line breaks inside the string.
+- `id`: a unique, stable identifier, also used as the card's HTML anchor.
+- `image`: the public URL of the thumbnail; `image_alt`: a short accessible description.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+### Replace the placeholder images
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+Place your images in **`static/images/publications/`**. Current placeholders are:
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+| Paper | Placeholder file |
+| --- | --- |
+| Performative Misalignment | `performative-misalignment.svg` |
+| Scaling Laws for Scalable Oversight | `scalable-oversight.svg` |
+| Any-Depth Alignment | `any-depth-alignment.svg` |
+| D-FUSEr | `d-fuser.svg` |
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+For example, add `static/images/publications/scalable-oversight.png`, then change that entry in `data/publications.json` to:
 
-## We ask you, humbly, to support this open source movement
+```json
+"image": "/images/publications/scalable-oversight.png",
+"image_alt": "Scaling of oversight success with supervisor capability"
+```
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+Use PNG, JPEG, WebP, or SVG. A 750 × 420 image (roughly 16:9) works well; it displays at 250 × 140 on desktop without cropping. Do not include `static` in the image URL. Replacing an SVG with another SVG at the same path requires no data edit.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+These featured publications are independent of the starter examples in `content/publication/`. Their shared rendering template is `layouts/partials/featured-publications.html`.
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
+## Edit other content
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
+- **Homepage intro and news:** `layouts/landing/index.html`.
+- **Notes:** `content/notes.md`, served at `/notes/`.
+- **Interactive CV:** `data/cv.json`, served at `/cv/`. Entries with `description` expand and collapse; entries without one display as simple rows. The initial content comes from `static/uploads/resume.pdf`.
+- **Downloadable CV:** replace `static/uploads/resume.pdf` separately when updating your résumé.
+- **CV page layout and controls:** `layouts/partials/cv.html`.
+- **Shared Notes/CV layout:** `layouts/personal/single.html`.
+- **Style adjustments:** `static/css/home.css`; reference styles remain in `static/css/reference-*.css`.
+- **Theme navigation:** `config/_default/menus.yaml`.
 
-## Demo image credits
+## Build and deploy
 
-- [Unsplash](https://unsplash.com)
+Use Hugo **extended 0.136.5** (matching `.github/workflows/publish.yaml`) and Go for Hugo modules.
 
-## Latest news
+```sh
+hugo server
+# Production check without changing the tracked public/ directory:
+hugo --minify --destination /tmp/dbaek-site-preview
+```
 
-<!--START_SECTION:news-->
-* [6 Compelling Reasons I Switched from WordPress to Hugo](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;wordpress&#x2F;)
-* [The 7 best landing page builders in 2024](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;7-best-landing-page-builders&#x2F;)
-* [Start a Blog and Make Money in 2024: Here&#39;s What You Need to Know](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;start-a-blog-and-make-money&#x2F;)
-* [Hugo vs Quarto: Which One is Better for 2024?](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;quarto&#x2F;)
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-<!--END_SECTION:news-->
+The GitHub Pages workflow builds and deploys on pushes to `main`. Edit source files, not the legacy generated files in `public/`.

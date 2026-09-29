@@ -45,3 +45,43 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
   footer .footer { flex-direction: column; text-align: center; padding: 0 1.5rem; box-sizing: border-box; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Publication previews share the reference site's 250 × 140 thumbnail layout. */
+.pub-image { flex: 0 0 250px; margin-right: 20px; }
+.pub.svelte-f4d8od .pub-image img.svelte-f4d8od { display: block; max-width: 100%; height: auto; aspect-ratio: 25 / 14; object-fit: contain; margin: 0; }
+.personal-page { padding: 0 1.5rem; box-sizing: border-box; }
+.page-nav, .cv-actions, .cv-nav { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; }
+.page-nav { margin: 1.5rem 0 2rem; }
+.page-nav a:first-child { margin-right: auto; font-weight: 700; }
+.page-nav a[aria-current] { background: #d8eaff; }
+.personal-page .name.svelte-f4d8od { margin-left: 0; padding: 0 8px; }
+.notes-content { min-height: 45vh; font-size: 1.25rem; margin-top: 2rem; }
+.cv-summary { font-size: 1.2rem; line-height: 1.6; }
+.cv-actions { margin: 1rem 0; }
+.cv-actions button { background: #f7a1a180; border-radius: 3px; }
+.cv-nav { padding: 1rem 0; border-block: 1px solid #b8d3ee; margin: 1.5rem 0; }
+.personal-page .cv-controls { padding-left: 0; }
+.cv-section { scroll-margin-top: 1.5rem; margin-bottom: 2rem; }
+.cv-section h2 { font-family: Raleway, sans-serif; font-size: 1.6rem; background: #d8eaff; padding: .65rem 1rem; border-radius: 6px; }
+.cv-section .timeline { padding: 0; }
+.cv-role { margin: .4rem 0 .2rem 1rem; }
+.cv-entry { padding: .8rem 0; border-top: 1px solid #b8d3ee; font-size: 1.125rem; }
+.cv-entry p { margin: .35rem 0 0; }
+.cv-date { display: inline-block; color: #666; margin-right: 1rem; }
+.cv-publications { margin-top: 5rem; }
+.cv-publications .pub-block.svelte-f4d8od { width: 100%; }
+@media (max-width: 650px) {
+  .pub-image { flex-basis: auto; margin: 0 0 1rem; max-width: 100%; }
+  .personal-page .name.svelte-f4d8od { font-size: 2rem; }
+}
+@media (max-width: 480px) {
+  .block-name.svelte-f4d8od.svelte-f4d8od { font-size: 1.35rem; left: 12px; height: auto; top: -2rem; line-height: 1.5; padding-top: 0; }
+}
+@media print {
+  .page-nav, .cv-nav, .cv-controls, .cv-actions, footer, .pub-image, .citation { display: none !important; }
+  .page.svelte-f4d8od.svelte-f4d8od { display: block; }
+  .personal-page { padding: 0; }
+  .cv-section, .pub { break-inside: avoid; }
+  .content a { background: none; }
+  .cv-section h2 { background: none; border-bottom: 1px solid #777; padding-left: 0; }
+}
