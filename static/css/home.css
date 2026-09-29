@@ -46,9 +46,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-/* Publication previews share the reference site's 250 × 140 thumbnail layout. */
+/* Keep publication figures at their natural aspect ratios without a padded frame. */
 .pub-image { flex: 0 0 250px; margin-right: 20px; }
-.pub.svelte-f4d8od .pub-image img.svelte-f4d8od { display: block; max-width: 100%; height: auto; aspect-ratio: 25 / 14; object-fit: contain; margin: 0; }
+.pub.svelte-f4d8od .pub-image img.svelte-f4d8od { display: block; max-width: 100%; height: auto; background: transparent; border-radius: 0; margin: 0; }
 .personal-page { padding: 0 1.5rem; box-sizing: border-box; }
 .page-nav, .cv-actions, .cv-nav { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; }
 .page-nav { margin: 1.5rem 0 2rem; }

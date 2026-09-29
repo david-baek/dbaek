@@ -31,7 +31,7 @@ For example, add `static/images/publications/scalable-oversight.png`, then chang
 "image_alt": "Scaling of oversight success with supervisor capability"
 ```
 
-Use PNG, JPEG, WebP, or SVG. A 750 × 420 image (roughly 16:9) works well; it displays at 250 × 140 on desktop without cropping. Do not include `static` in the image URL. Replacing an image at the same path requires no data edit.
+Use PNG, JPEG, WebP, or SVG. Images display at 250px wide on desktop with their original aspect ratios, without cropping or added padding. Do not include `static` in the image URL. Replacing an image at the same path requires no data edit.
 
 These featured publications are independent of the starter examples in `content/publication/`. Their shared rendering template is `layouts/partials/featured-publications.html`.
 
