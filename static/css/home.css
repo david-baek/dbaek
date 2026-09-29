@@ -28,6 +28,8 @@ footer a { white-space: nowrap; }
 button { font: inherit; color: inherit; border: 0; cursor: pointer; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #367ac5; outline-offset: 4px; }
 .name-text strong { font-weight: 800; }
+.content a.highlight-link { background: hsla(0,85%,80%,.5); padding: 0 3px; border-radius: 2px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.content a.highlight-link:hover { background: hsla(0,85%,76%,.9); }
 .pub-content { flex: 1; }
 .pub-content p { margin-top: 0; }
 .pub-content .pub-icons a { background: #f7a1a180; padding: 0 3px; border-radius: 2px; }
