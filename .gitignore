@@ -1,2 +1,5 @@
 # Local Netlify folder
 .netlify
+# Private instructions for local coding agents
+instruction.md
+.ipynb_checkpoints/
