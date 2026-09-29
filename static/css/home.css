@@ -5,7 +5,6 @@
 .pub-content .pub-title a:focus-visible { background: hsla(0,85%,80%,.5); }
 #about, #publications { width: 100%; }
 .name-pic.svelte-f4d8od.svelte-f4d8od { width: 13.75rem; }
-.name-pic.svelte-f4d8od img.svelte-f4d8od { height: auto; object-fit: contain; }
 .pub-content { min-width: 0; }
 .citation { font-size: 1rem; margin-top: 6px; }
 .citation summary { cursor: pointer; font-weight: 500; }
