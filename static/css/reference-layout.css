@@ -1,0 +1,35 @@
+/* Original design by Jay Wang — https://zijie.wang/ */
+nav.svelte-fog8yd.svelte-fog8yd{font-weight:300;padding:0 2em;display:grid;grid-template-columns:1fr minmax(200px,860px) 1fr;grid-template-rows:1fr;justify-items:center;box-shadow:1px 2px #0000000d,0 1px 4px #0000000a,0 2px 8px #00000008;margin-bottom:10px}
+@media only screen and (min-width: 768px) and (max-width: 835px){nav.svelte-fog8yd.svelte-fog8yd{grid-template-columns:1fr minmax(200px,670px) 1fr}
+}
+.header.svelte-fog8yd.svelte-fog8yd{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
+.header.svelte-fog8yd a.svelte-fog8yd{color:currentColor;transition:color .2s ease-in-out;background:none;padding:10px 0}
+.header.svelte-fog8yd a.svelte-fog8yd:hover{color:currentColor}
+.header-other.svelte-fog8yd.svelte-fog8yd{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
+.header-item.svelte-fog8yd.svelte-fog8yd{font-weight:600;font-size:1.5rem;display:inline-block;position:relative}
+.header-item.header-other-item.svelte-fog8yd.svelte-fog8yd{font-size:1.25rem;font-weight:400;margin-left:20px}
+.header-item.svelte-fog8yd.svelte-fog8yd:after{content:"";background-color:#f68e8eb3;height:6px;position:absolute;top:75%;left:-5%;width:0%;z-index:-1;border-radius:2px;visibility:hidden;transition:all .3s ease-in-out 0s}
+.header-item.svelte-fog8yd.svelte-fog8yd:hover:after{visibility:visible;width:110%}
+.header-item-name.svelte-fog8yd.svelte-fog8yd{font-family:Raleway;font-weight:800;font-size:2rem}
+.header-main.svelte-fog8yd.svelte-fog8yd{grid-column:2/span 1;grid-row:1/span 1;width:100%;color:#022a36}
+footer.svelte-s8w9zi.svelte-s8w9zi{background:#1b2029;color:#fff;font-weight:300;padding:2rem 0 2em;margin-top:1rem;display:grid;position:absolute;bottom:0;width:100%;grid-template-columns:1fr minmax(200px,860px) 1fr;grid-template-rows:1fr;justify-items:center}
+.footer.svelte-s8w9zi.svelte-s8w9zi{display:flex;flex-direction:row;justify-content:space-between;align-items:center;justify-content:space-around}
+.footer.svelte-s8w9zi a.svelte-s8w9zi{text-decoration:none;color:#fff;transition:color .2s ease-in-out;background:none;padding:10px 0;cursor:pointer}
+.footer.svelte-s8w9zi a.svelte-s8w9zi:hover{color:#f58d8d}
+.footer-other.svelte-s8w9zi.svelte-s8w9zi{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
+@media (max-width: 780px){.footer.svelte-s8w9zi.svelte-s8w9zi{justify-content:space-around}
+}
+@media (max-width: 415px){.footer.svelte-s8w9zi.svelte-s8w9zi{justify-content:center}
+}
+.raleway.svelte-s8w9zi.svelte-s8w9zi{font-family:Raleway}
+.footer-item.svelte-s8w9zi.svelte-s8w9zi{display:flex;font-weight:400;font-size:1rem;position:relative}
+.footer-item.svelte-s8w9zi a.svelte-s8w9zi{color:#f8afaf}
+@media (max-width: 415px){.footer-item.svelte-s8w9zi.svelte-s8w9zi{display:none}
+}
+.footer-main.svelte-s8w9zi.svelte-s8w9zi{grid-column:2/span 1;grid-row:1/span 1;width:100%;color:#fff}
+.footer-other.svelte-s8w9zi.svelte-s8w9zi{display:flex;flex-direction:column;justify-content:space-between;align-items:center;gap:5px}
+.footer-icons.svelte-s8w9zi.svelte-s8w9zi{cursor:pointer}
+.footer.svelte-s8w9zi .svg-icon.svelte-s8w9zi{display:inline-flex;align-self:center;align-items:center;margin:0 5px}
+.footer.svelte-s8w9zi .svg-icon.svelte-s8w9zi svg{height:1.25em;width:1.25em;fill:currentColor}
+main.svelte-llasnv{position:relative;background-color:#fff;padding:2em 2em 150px;margin:0 auto;box-sizing:border-box}
+

@@ -1,103 +1,475 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="David Baek — PhD student at MIT EECS researching scalable oversight and alignment of LLMs.">
-  <title>David Baek</title>
-  <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/css/home.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="David Baek — PhD student at MIT EECS researching scalable oversight and alignment of LLMs." name="description"/>
+<title>
+   David Baek | MIT EECS
+  </title>
+<link href="/favicon.ico" rel="icon"/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"/>
+<link href="/css/reference-global.css" rel="stylesheet"/>
+<link href="/css/reference-layout.css" rel="stylesheet"/>
+<link href="/css/reference-page.css" rel="stylesheet"/>
+<link href="/css/home.css" rel="stylesheet"/>
 </head>
 <body>
-  <header class="site-header">
-    <a class="wordmark" href="/">David Baek</a>
-    <nav aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#news">News</a>
-      <a href="#publications">Publications</a>
-      <a href="#cv">CV</a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="about" class="intro" aria-labelledby="intro-title">
-      <div class="intro-copy">
-        <h1 id="intro-title">Hi, I’m David.</h1>
-        <p>I’m a PhD student at <a href="https://www.eecs.mit.edu/">MIT EECS</a>.</p>
-        <p>My research focuses on <strong>scalable oversight</strong> and <strong>alignment</strong> of LLMs. As AI systems become increasingly powerful at an unprecedented speed, it may be tempting to rely on <em>defensive</em> methods, such as catching malicious behaviors via CoT monitoring, or building unbreakable sandboxes. I believe these methods will expose us to a huge unpredictable threat surface. My research goal is to solve <em>inner alignment</em>: to study how to build or construct <strong>provably safe</strong> AI systems. Most recently, I’m exploring how to edit beliefs of LLMs in a provable verified manner.</p>
-        <div class="contact-links" aria-label="Contact and profiles">
-          <a href="mailto:dbaek@mit.edu">Email</a>
-          <a href="https://github.com/david-baek">GitHub</a>
-          <a href="https://twitter.com/dbaek__">X</a>
-          <a href="https://www.linkedin.com/in/dbaek-ai/">LinkedIn</a>
-          <a href="https://scholar.google.com/citations?user=ArkB1_MAAAAJ&amp;hl=en">Scholar</a>
-          <a href="/uploads/resume.pdf">PDF CV</a>
-        </div>
-      </div>
-      <figure class="portrait"><img src="/authors/admin/avatar.jpg" alt="David Baek"></figure>
-    </section>
-
-    <section id="news" class="section" aria-labelledby="news-title">
-      <div class="section-heading"><p class="eyebrow">Updates</p><h2 id="news-title">News</h2></div>
-      <ol class="news-list">
-        <li><time datetime="2026-08">Aug 2026</time><span>Wrapped up my internship at <strong>Google</strong> in Sunnyvale, CA!</span></li>
-        <li><time datetime="2026-05">May 2026</time><span>Excited to share that our <strong>Performative Misalignment</strong> paper is accepted to ICML as a spotlight (Top 2%)!</span></li>
-        <li><time datetime="2026-05">May 2026</time><span>Thrilled to share that <strong>D-FUSEr</strong> is accepted to ICML!</span></li>
-        <li><time datetime="2026-01">Jan 2026</time><span><strong>Any-Depth Alignment</strong> is accepted to ICLR!</span></li>
-        <li><time datetime="2025-09">Sep 2025</time><span><strong>Scaling Laws for Scalable Oversight</strong> is accepted to NeurIPS as a spotlight (Top 3%)!</span></li>
-        <li><time datetime="2025-08">Aug 2025</time><span>Wrapped up my internship at <strong>TikTok</strong> in Bellevue, WA!</span></li>
-        <li><time datetime="2023-09">Sep 2023</time><span>Started my PhD at <strong>MIT</strong>!</span></li>
-      </ol>
-    </section>
-
-    <section id="publications" class="section" aria-labelledby="publications-title">
-      <div class="section-heading"><p class="eyebrow">Selected work</p><h2 id="publications-title">Featured Publications</h2></div>
-      <div class="publication-list">
-        <article class="publication">
-          <h3><a href="https://arxiv.org/abs/2606.08629">Sycophancy Towards Researchers Drives Performative Misalignment</a></h3>
-          <p><strong>David D. Baek</strong>, Xinnuo Li, Anay Gupta, Taslim Mahbub, Kejian Shi, Max Tegmark, and Shi Feng.</p>
-          <p class="venue">International Conference on Machine Learning (<strong>ICML</strong>), 2026 · <span class="badge">Spotlight · Top 2%</span></p>
-          <p class="links"><a href="https://arxiv.org/abs/2606.08629">Paper</a></p>
-        </article>
-        <article class="publication">
-          <h3><a href="https://arxiv.org/abs/2504.18530">Scaling Laws for Scalable Oversight</a></h3>
-          <p>Joshua Engels*, <strong>David D. Baek*</strong>, Subhash Kantamneni*, and Max Tegmark.</p>
-          <p class="venue">Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025 · <span class="badge">Spotlight · Top 3%</span></p>
-          <p class="links"><a href="https://arxiv.org/abs/2504.18530">Paper</a> <a href="https://github.com/subhashk01/oversight-scaling-laws">Code</a></p>
-        </article>
-        <article class="publication">
-          <h3><a href="https://arxiv.org/abs/2510.18081">Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth</a></h3>
-          <p>Jiawei Zhang, Andrew Estornell, <strong>David D. Baek</strong>, Bo Li, and Xiaojun Xu.</p>
-          <p class="venue">International Conference on Learning Representations (<strong>ICLR</strong>), 2026.</p>
-          <p class="links"><a href="https://arxiv.org/abs/2510.18081">Paper</a></p>
-        </article>
-        <article class="publication">
-          <h3>D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning</h3>
-          <p><strong>David D. Baek*</strong>, Andrew Estornell*, Yichi Zhang*, Muhammad Faaiz Taufiq, Jean-François Ton, Jie Mei, and Tao Wang.</p>
-          <p class="venue">International Conference on Machine Learning (<strong>ICML</strong>), 2026.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="cv" class="section cv" aria-labelledby="cv-title">
-      <div class="section-heading">
-        <p class="eyebrow">Background</p><h2 id="cv-title">Curriculum Vitae</h2>
-        <p class="cv-intro">A concise, expandable record. <a href="/uploads/resume.pdf">Download the full PDF.</a></p>
-      </div>
-      <div class="cv-controls"><button type="button" data-expand>Expand all</button><button type="button" data-collapse>Collapse all</button></div>
-      <div class="timeline">
-        <details open><summary><span>2026</span><strong>Google · Software Engineer Intern (PhD)</strong><i>Sunnyvale, CA</i></summary><div><p>Research on reinforcement learning and reward hacking in LLMs.</p></div></details>
-        <details><summary><span>2025</span><strong>ByteDance · ML Research / Engineer Intern</strong><i>Bellevue, WA</i></summary><div><p>Researched multi-agent reinforcement learning and the safety and robustness of LLMs. Proposed a product moderation paradigm for TikTok Shop and trained a 7B model.</p></div></details>
-        <details><summary><span>2023–now</span><strong>MIT EECS · PhD in Electrical Engineering &amp; Computer Science</strong><i>Cambridge, MA</i></summary><div><p>Advised by Max Tegmark. Researching responsible AI, large language models, AI alignment, and scalable oversight.</p></div></details>
-        <details><summary><span>2017–2023</span><strong>Seoul National University · BS in Physics &amp; Computer Science</strong><i>Seoul, Korea</i></summary><div><p>Summa cum laude, GPA 4.23/4.3. Presidential Award, ranked first in the graduating cohort in the College of Natural Sciences.</p></div></details>
-      </div>
-    </section>
-  </main>
-  <footer>Designed and built by David Baek · Original design by <a href="https://zijie.wang/">Jay Wang</a> · <a href="mailto:dbaek@mit.edu">dbaek@mit.edu</a></footer>
-  <script>
-    const entries = document.querySelectorAll('.timeline details');
+<main class="svelte-llasnv">
+<div class="page svelte-f4d8od">
+<div class="content svelte-f4d8od"><div class="block-tb svelte-f4d8od">
+<section aria-labelledby="intro-title" class="block-tb svelte-f4d8od" id="about">
+<h1 class="header name svelte-f4d8od" id="intro-title">
+       David Baek
+      </h1>
+<div class="block-lr svelte-f4d8od">
+<div class="name-text svelte-f4d8od">
+<p class="svelte-f4d8od">
+         Hi, I’m David.
+         I’m a PhD student at
+         <a class="svelte-f4d8od" href="https://www.eecs.mit.edu/">
+          MIT EECS
+         </a>.
+        </p>
+<p class="svelte-f4d8od">
+         My research focuses on
+         <strong class="svelte-f4d8od">
+          scalable oversight
+         </strong>
+         and
+         <strong class="svelte-f4d8od">
+          alignment
+         </strong>
+         of LLMs. As AI systems become increasingly powerful at an unprecedented speed, it may be tempting to rely on
+         <em class="svelte-f4d8od">
+          defensive
+         </em>
+         methods, such as catching malicious behaviors via CoT monitoring, or building unbreakable sandboxes. I believe these methods will expose us to a huge unpredictable threat surface. My research goal is to solve
+         <em class="svelte-f4d8od">
+          inner alignment
+         </em>: to study how to build or construct
+         <strong class="svelte-f4d8od">
+          provably safe
+         </strong>
+         AI systems. Most recently, I’m exploring how to edit beliefs of LLMs in a provable verified manner.
+        </p>
+</div>
+<div class="svelte-f4d8od name-pic">
+<img alt="David Baek" class="svelte-f4d8od" src="{{ with site.GetPage `/authors/admin` }}{{ with .Resources.GetMatch `avatar.*` }}{{ .RelPermalink }}{{ end }}{{ end }}"/>
+<div class="svelte-f4d8od block-tb" style="padding:0 5px">
+<div class="svelte-f4d8od icons">
+<a aria-label="GitHub" class="svelte-f4d8od svg-icon icon-github" href="https://github.com/david-baek" target="_self">
+<!-- HTML_TAG_START -->
+<svg aria-hidden="true" class="svg-inline--fa fa-github-alt fa-w-15 svelte-f4d8od" data-icon="github-alt" data-prefix="fab" focusable="false" role="img" viewBox="0 0 480 512" xmlns="http://www.w3.org/2000/svg">
+<path class="svelte-f4d8od" d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z" fill="currentColor">
+</path>
+</svg>
+<!-- HTML_TAG_END -->
+</a>
+<a aria-label="Google Scholar" class="svelte-f4d8od svg-icon icon-scholar" href="https://scholar.google.com/citations?user=ArkB1_MAAAAJ&amp;hl=en" target="_self">
+<!-- HTML_TAG_START -->
+<svg class="svelte-f4d8od" height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" version="1.1" viewBox="0 0 39 33" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="svelte-f4d8od" transform="matrix(1,0,0,1,-100,-135)">
+<g class="svelte-f4d8od" transform="matrix(0.45692,0,0,0.538528,724.76,21.6528)">
+<g class="svelte-f4d8od" transform="matrix(2.18857,0,0,1.85691,-4911.22,-2108.11)">
+<path class="svelte-f4d8od" d="M1657.74,1260.1L1638.91,1248.93L1620.07,1260.1L1638.91,1270.53L1653.85,1262.22L1653.85,1274.25L1657.74,1274.25L1657.74,1260.1">
+</path>
+</g>
+<g class="svelte-f4d8od" transform="matrix(2.18857,0,0,1.85691,-4911.22,-2108.11)">
+<path class="svelte-f4d8od" d="M1638.91,1274.82L1627.31,1267.45L1627.31,1274.25L1638.91,1281.28L1649.95,1274.58L1649.95,1267.99L1638.91,1274.82Z">
+</path>
+</g>
+</g>
+</g>
+</svg>
+<!-- HTML_TAG_END -->
+</a>
+<a aria-label="X" class="svelte-f4d8od svg-icon icon-twitter" href="https://twitter.com/dbaek__" target="_self">
+<!-- HTML_TAG_START -->
+<svg aria-hidden="true" class="svg-inline--fa fa-w-16 fa-twitter svelte-f4d8od" data-icon="twitter" data-prefix="fab" focusable="false" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path class="svelte-f4d8od" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="currentColor">
+</path>
+</svg>
+<!-- HTML_TAG_END -->
+</a>
+<a aria-label="LinkedIn" class="svelte-f4d8od svg-icon icon-linkedin" href="https://www.linkedin.com/in/dbaek-ai/" target="_self">
+<!-- HTML_TAG_START -->
+<svg aria-hidden="true" class="svg-inline--fa fa-w-14 fa-linkedin svelte-f4d8od" data-icon="linkedin" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+<path class="svelte-f4d8od" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" fill="currentColor">
+</path>
+</svg>
+<!-- HTML_TAG_END -->
+</a>
+</div>
+<div class="svelte-f4d8od infos">
+<div class="svelte-f4d8od label-text">
+<a aria-label="Email" class="svelte-f4d8od" href="mailto:dbaek@mit.edu" target="_self">
+            Say Hello
+           </a>
+</div>
+<div class="svelte-f4d8od label-text">
+<a class="svelte-f4d8od" href="#cv" target="_self">CV</a>
+</div>
+<div class="svelte-f4d8od label-cv">
+<a class="svelte-f4d8od" href="/uploads/resume.pdf" rel="prefetch" target="_self">PDF</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="news-title" class="news-block has-block-name svelte-f4d8od" id="news">
+<h2 class="block-name svelte-f4d8od" id="news-title">
+       News
+      </h2>
+<ol class="news-content svelte-f4d8od" id="news-items">
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2026-08">
+         Aug 2026
+        </time>
+<span class="news-text svelte-f4d8od">
+         Wrapped up my internship at
+         <strong class="svelte-f4d8od">
+          Google
+         </strong>
+         in Sunnyvale, CA!
+        </span>
+</li>
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2026-05">
+         May 2026
+        </time>
+<span class="news-text svelte-f4d8od">
+         Excited to share that our
+         <strong class="svelte-f4d8od">
+          Performative Misalignment
+         </strong>
+         paper is accepted to ICML as a spotlight (Top 2%)!
+        </span>
+</li>
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2026-05">
+         May 2026
+        </time>
+<span class="news-text svelte-f4d8od">
+         Thrilled to share that
+         <strong class="svelte-f4d8od">
+          D-FUSEr
+         </strong>
+         is accepted to ICML!
+        </span>
+</li>
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2026-01">
+         Jan 2026
+        </time>
+<span class="news-text svelte-f4d8od">
+<strong class="svelte-f4d8od">
+          Any-Depth Alignment
+         </strong>
+         is accepted to ICLR!
+        </span>
+</li>
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2025-09">
+         Sep 2025
+        </time>
+<span class="news-text svelte-f4d8od">
+<strong class="svelte-f4d8od">
+          Scaling Laws for Scalable Oversight
+         </strong>
+         is accepted to NeurIPS as a spotlight (Top 3%)!
+        </span>
+</li>
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2025-08">
+         Aug 2025
+        </time>
+<span class="news-text svelte-f4d8od">
+         Wrapped up my internship at
+         <strong class="svelte-f4d8od">
+          TikTok
+         </strong>
+         in Bellevue, WA!
+        </span>
+</li>
+<li class="news svelte-f4d8od">
+<time class="news-date svelte-f4d8od" datetime="2023-09">
+         Sep 2023
+        </time>
+<span class="news-text svelte-f4d8od">
+         Started my PhD at
+         <strong class="svelte-f4d8od">
+          MIT
+         </strong>
+         !
+        </span>
+</li>
+</ol>
+<button aria-controls="news-items" aria-expanded="false" class="add-more-button svelte-f4d8od" hidden="" id="news-toggle" type="button">
+       show more
+      </button>
+</section>
+<section aria-labelledby="publications-title" class="block-tb svelte-f4d8od" id="publications"><div class="pub-block svelte-f4d8od has-block-name"><h2 class="block-name svelte-f4d8od" id="publications-title">
+       Featured Publications
+      </h2><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="Sycophancy Towards Researchers Drives Performative Misalignment" class="paper-preview" href="https://arxiv.org/abs/2606.08629"><img alt="First-page preview: Sycophancy Towards Researchers Drives Performative Misalignment" class="svelte-f4d8od" height="140" loading="lazy" src="/images/publications/performative.png" width="250"/></a>
+<div class="pub-content svelte-f4d8od">
+<h3 class="pub-title svelte-f4d8od">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2606.08629">
+           Sycophancy Towards Researchers Drives Performative Misalignment
+          </a>
+</h3>
+<p class="pub-author svelte-f4d8od">
+<strong class="svelte-f4d8od">
+           David D. Baek
+          </strong>
+          , Xinnuo Li, Anay Gupta, Taslim Mahbub, Kejian Shi, Max Tegmark, and Shi Feng.
+         </p>
+<p class="pub-venue svelte-f4d8od">
+          International Conference on Machine Learning (
+          <strong class="svelte-f4d8od">
+           ICML
+          </strong>
+          ), 2026 ·
+         </p>
+<p class="pub-icons svelte-f4d8od">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2606.08629">
+           Paper
+          </a>
+</p>
+<span class="award-highlight svelte-f4d8od">
+          Spotlight · Top 2%
+         </span>
+<details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2026performative,
+  title = {Sycophancy Towards Researchers Drives Performative Misalignment},
+  author = {David D. Baek and Xinnuo Li and Anay Gupta and Taslim Mahbub and Kejian Shi and Max Tegmark and Shi Feng},
+  booktitle = {ICML},
+  year = {2026},
+  url = {https://arxiv.org/abs/2606.08629}
+}</pre></details></div>
+</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="Scaling Laws for Scalable Oversight" class="paper-preview" href="https://arxiv.org/abs/2504.18530"><img alt="First-page preview: Scaling Laws for Scalable Oversight" class="svelte-f4d8od" height="140" loading="lazy" src="/images/publications/oversight.png" width="250"/></a>
+<div class="pub-content svelte-f4d8od">
+<h3 class="pub-title svelte-f4d8od">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2504.18530">
+           Scaling Laws for Scalable Oversight
+          </a>
+</h3>
+<p class="pub-author svelte-f4d8od">
+          Joshua Engels*,
+          <strong class="svelte-f4d8od">
+           David D. Baek*
+          </strong>
+          , Subhash Kantamneni*, and Max Tegmark.
+         </p>
+<p class="pub-venue svelte-f4d8od">
+          Conference on Neural Information Processing Systems (
+          <strong class="svelte-f4d8od">
+           NeurIPS
+          </strong>
+          ), 2025 ·
+         </p>
+<p class="pub-icons svelte-f4d8od">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2504.18530">
+           Paper
+          </a>
+<a class="svelte-f4d8od" href="https://github.com/subhashk01/oversight-scaling-laws">
+           Code
+          </a>
+</p>
+<span class="award-highlight svelte-f4d8od">
+          Spotlight · Top 3%
+         </span>
+<details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2025oversight,
+  title = {Scaling Laws for Scalable Oversight},
+  author = {Joshua Engels and David D. Baek and Subhash Kantamneni and Max Tegmark},
+  booktitle = {NeurIPS},
+  year = {2025},
+  url = {https://arxiv.org/abs/2504.18530}
+}</pre></details></div>
+</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth" class="paper-preview" href="https://arxiv.org/abs/2510.18081"><img alt="First-page preview: Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth" class="svelte-f4d8od" height="140" loading="lazy" src="/images/publications/any-depth.png" width="250"/></a>
+<div class="pub-content svelte-f4d8od">
+<h3 class="pub-title svelte-f4d8od">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2510.18081">
+           Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth
+          </a>
+</h3>
+<p class="pub-author svelte-f4d8od">
+          Jiawei Zhang, Andrew Estornell,
+          <strong class="svelte-f4d8od">
+           David D. Baek
+          </strong>
+          , Bo Li, and Xiaojun Xu.
+         </p>
+<p class="pub-venue svelte-f4d8od">
+          International Conference on Learning Representations (
+          <strong class="svelte-f4d8od">
+           ICLR
+          </strong>
+          ), 2026.
+         </p>
+<p class="pub-icons svelte-f4d8od">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2510.18081">
+           Paper
+          </a>
+</p>
+<details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2026anydepth,
+  title = {Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth},
+  author = {Jiawei Zhang and Andrew Estornell and David D. Baek and Bo Li and Xiaojun Xu},
+  booktitle = {ICLR},
+  year = {2026},
+  url = {https://arxiv.org/abs/2510.18081}
+}</pre></details></div>
+</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning" class="paper-preview text-preview" href="https://openreview.net/forum?id=To2O1ed5cV"><strong>D-FUSEr</strong><span>Diverse Failure, Unified Success</span><small>ICML 2026</small></a>
+<div class="pub-content svelte-f4d8od">
+<h3 class="pub-title svelte-f4d8od"><a href="https://openreview.net/forum?id=To2O1ed5cV">D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning</a></h3>
+<p class="pub-author svelte-f4d8od">
+<strong class="svelte-f4d8od">
+           David D. Baek*
+          </strong>
+          , Andrew Estornell*, Yichi Zhang*, Muhammad Faaiz Taufiq, Jean-François Ton, Jie Mei, and Tao Wang.
+         </p>
+<p class="pub-venue svelte-f4d8od">
+          International Conference on Machine Learning (
+          <strong class="svelte-f4d8od">
+           ICML
+          </strong>
+          ), 2026.
+         </p>
+<p class="pub-icons svelte-f4d8od"><a href="https://openreview.net/forum?id=To2O1ed5cV">Paper</a></p><details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2026dfuser,
+  title = {D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning},
+  author = {David D. Baek and Andrew Estornell and Yichi Zhang and Muhammad Faaiz Taufiq and Jean-François Ton and Jie Mei and Tao Wang},
+  booktitle = {ICML},
+  year = {2026},
+  url = {https://openreview.net/forum?id=To2O1ed5cV}
+}</pre></details></div>
+</article></div></div></section>
+<section aria-labelledby="cv-title" class="news-block has-block-name svelte-f4d8od" id="cv">
+<h2 class="block-name svelte-f4d8od" id="cv-title">
+       Curriculum Vitae
+      </h2>
+<p class="cv-intro svelte-f4d8od">
+       A concise, expandable record.
+       <a class="svelte-f4d8od" href="/uploads/resume.pdf">
+        Download the full PDF.
+       </a>
+</p>
+<div class="cv-controls svelte-f4d8od">
+<button class="svelte-f4d8od" data-expand="" type="button">
+        Expand all
+       </button>
+<button class="svelte-f4d8od" data-collapse="" type="button">
+        Collapse all
+       </button>
+</div>
+<div class="timeline svelte-f4d8od">
+<details class="svelte-f4d8od" open="">
+<summary class="svelte-f4d8od">
+<span class="svelte-f4d8od">
+          2026
+         </span>
+<strong class="svelte-f4d8od">
+          Google · Software Engineer Intern (PhD)
+         </strong>
+<i class="svelte-f4d8od">
+          Sunnyvale, CA
+         </i>
+</summary>
+<div class="svelte-f4d8od">
+<p class="svelte-f4d8od">
+          Research on reinforcement learning and reward hacking in LLMs.
+         </p>
+</div>
+</details>
+<details class="svelte-f4d8od">
+<summary class="svelte-f4d8od">
+<span class="svelte-f4d8od">
+          2025
+         </span>
+<strong class="svelte-f4d8od">
+          ByteDance · ML Research / Engineer Intern
+         </strong>
+<i class="svelte-f4d8od">
+          Bellevue, WA
+         </i>
+</summary>
+<div class="svelte-f4d8od">
+<p class="svelte-f4d8od">
+          Researched multi-agent reinforcement learning and the safety and robustness of LLMs. Proposed a product moderation paradigm for TikTok Shop and trained a 7B model.
+         </p>
+</div>
+</details>
+<details class="svelte-f4d8od">
+<summary class="svelte-f4d8od">
+<span class="svelte-f4d8od">
+          2023–now
+         </span>
+<strong class="svelte-f4d8od">
+          MIT EECS · PhD in Electrical Engineering &amp; Computer Science
+         </strong>
+<i class="svelte-f4d8od">
+          Cambridge, MA
+         </i>
+</summary>
+<div class="svelte-f4d8od">
+<p class="svelte-f4d8od">
+          Advised by Max Tegmark. Researching responsible AI, large language models, AI alignment, and scalable oversight.
+         </p>
+</div>
+</details>
+<details class="svelte-f4d8od">
+<summary class="svelte-f4d8od">
+<span class="svelte-f4d8od">
+          2017–2023
+         </span>
+<strong class="svelte-f4d8od">
+          Seoul National University · BS in Physics &amp; Computer Science
+         </strong>
+<i class="svelte-f4d8od">
+          Seoul, Korea
+         </i>
+</summary>
+<div class="svelte-f4d8od">
+<p class="svelte-f4d8od">
+          Summa cum laude, GPA 4.23/4.3. Presidential Award, ranked first in the graduating cohort in the College of Natural Sciences.
+         </p>
+</div>
+</details>
+</div>
+</section>
+</div>
+</div>
+</div>
+</main>
+<footer class="svelte-s8w9zi">
+<div class="footer footer-main svelte-s8w9zi">
+<div class="footer-item svelte-s8w9zi">
+     Original design: Designed and built by
+     <a class="svelte-s8w9zi" href="https://zijie.wang/">
+      Jay Wang
+     </a>
+</div>
+<a class="svelte-s8w9zi" href="mailto:dbaek@mit.edu">
+     dbaek@mit.edu
+    </a>
+</div>
+</footer>
+<script>
+   const entries = document.querySelectorAll('.timeline details');
     document.querySelector('[data-expand]').addEventListener('click', () => entries.forEach(entry => entry.open = true));
     document.querySelector('[data-collapse]').addEventListener('click', () => entries.forEach(entry => entry.open = false));
+    const news = [...document.querySelectorAll('#news-items li')];
+    const toggle = document.querySelector('#news-toggle');
+    if (news.length > 5) {
+      toggle.hidden = false;
+      news.slice(5).forEach(item => item.hidden = true);
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(expanded));
+        toggle.textContent = expanded ? 'show less' : 'show more';
+        news.slice(5).forEach(item => item.hidden = !expanded);
+      });
+    }
   </script>
 </body>
 </html>
