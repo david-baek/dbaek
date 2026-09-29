@@ -3,9 +3,9 @@
 {{ partial "site-head.html" . }}
 <body>
 <main class="svelte-llasnv"><div class="page svelte-f4d8od"><div class="content svelte-f4d8od personal-page">
-<nav class="page-nav" aria-label="Main navigation"><a href="/">David Baek</a><a href="/notes/" {{ if eq .Params.page_kind "notes" }}aria-current="page"{{ end }}>Notes</a><a href="/cv/" {{ if eq .Params.page_kind "cv" }}aria-current="page"{{ end }}>CV</a></nav>
+<nav class="page-nav" aria-label="Main navigation"><a href="/">David Baek</a><a href="/notes/" {{ if eq .Params.page_kind "notes" }}aria-current="page"{{ end }}>Notes</a><a href="/uploads/resume.pdf">CV</a></nav>
 <h1 class="header name svelte-f4d8od">{{ .Title }}</h1>
-{{ if eq .Params.page_kind "cv" }}{{ partial "cv.html" . }}{{ else }}<div class="notes-content">{{ .Content }}</div>{{ end }}
+<div class="notes-content">{{ .Content }}</div>
 </div></div></main>
 {{ partial "site-footer.html" . }}
 </body></html>

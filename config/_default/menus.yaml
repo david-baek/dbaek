@@ -12,5 +12,5 @@ main:
     url: /notes/
     weight: 40
   - name: CV
-    url: /cv/
+    url: /uploads/resume.pdf
     weight: 50
