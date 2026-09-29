@@ -11,7 +11,7 @@
     "image": "/images/publications/performative.png",
     "image_alt": "Figure from Sycophancy Towards Researchers Drives Performative Misalignment",
     "award": "Spotlight · Top 2%",
-    "bibtex": "@inproceedings{baek2026performative,\n  title = {Sycophancy Towards Researchers Drives Performative Misalignment},\n  author = {David D. Baek and Xinnuo Li and Anay Gupta and Taslim Mahbub and Kejian Shi and Max Tegmark and Shi Feng},\n  booktitle = {ICML},\n  year = {2026},\n  url = {https://arxiv.org/abs/2606.08629}\n}"
+    "bibtex": "@inproceedings{baek2026sycophancy,\n  title={Sycophancy Towards Researchers Drives Performative Misalignment},\n  author={David D. Baek and Xinnuo Li and Anay Gupta and Taslim Mahbub and Kejian Shi and Max Tegmark and Shi Feng},\n  booktitle={Forty-third International Conference on Machine Learning},\n  year={2026},\n  url={https://openreview.net/forum?id=rLFIOikFR2}}"
   },
   {
     "id": "scalable-oversight",
@@ -25,7 +25,7 @@
     "image": "/images/publications/oversight.png",
     "image_alt": "Figure from Scaling Laws for Scalable Oversight",
     "award": "Spotlight · Top 3%",
-    "bibtex": "@inproceedings{baek2025oversight,\n  title = {Scaling Laws for Scalable Oversight},\n  author = {Joshua Engels and David D. Baek and Subhash Kantamneni and Max Tegmark},\n  booktitle = {NeurIPS},\n  year = {2025},\n  url = {https://arxiv.org/abs/2504.18530}\n}"
+    "bibtex": "@inproceedings{engels2025scaling,\n  title={Scaling Laws For Scalable Oversight},\n  author={Joshua Engels and David D. Baek and Subhash Kantamneni and Max Tegmark},\n  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\n  year={2025},\n  url={https://openreview.net/forum?id=u1j6RqH8nM}}"
   },
   {
     "id": "any-depth-alignment",
@@ -39,7 +39,7 @@
     "image": "/images/publications/any-depth.png",
     "image_alt": "Figure from Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth",
     "award": "",
-    "bibtex": "@inproceedings{baek2026anydepth,\n  title = {Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth},\n  author = {Jiawei Zhang and Andrew Estornell and David D. Baek and Bo Li and Xiaojun Xu},\n  booktitle = {ICLR},\n  year = {2026},\n  url = {https://arxiv.org/abs/2510.18081}\n}"
+    "bibtex": "@inproceedings{zhang2026anydepth,\n  title={Any-Depth Alignment: Unlocking Innate Safety Alignment of {LLM}s to Any-Depth},\n  author={Jiawei Zhang and Andrew Estornell and David D. Baek and Bo Li and Xiaojun Xu},\n  booktitle={The Fourteenth International Conference on Learning Representations},\n  year={2026},\n  url={https://openreview.net/forum?id=0fuYOuJyzl}}"
   },
   {
     "id": "d-fuser",
@@ -53,6 +53,6 @@
     "image": "/images/publications/dfuser.png",
     "image_alt": "Figure from D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning",
     "award": "",
-    "bibtex": "@inproceedings{baek2026dfuser,\n  title = {D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning},\n  author = {David D. Baek and Andrew Estornell and Yichi Zhang and Muhammad Faaiz Taufiq and Jean-François Ton and Jie Mei and Tao Wang},\n  booktitle = {ICML},\n  year = {2026},\n  url = {https://openreview.net/forum?id=To2O1ed5cV}\n}"
+    "bibtex": "@inproceedings{baek2026dfuser,\n  title={D-{FUSE}r: Diverse Failure, Unified Success via Error-Distribution Shaping in {LLM} Reasoning},\n  author={David D. Baek and Andrew Estornell and Yichi Zhang and Muhammad Faaiz Taufiq and Jean-Francois Ton and Jie Mei and Tao Wang},\n  booktitle={Forty-third International Conference on Machine Learning},\n  year={2026},\n  url={https://openreview.net/forum?id=To2O1ed5cV}}"
   }
 ]
