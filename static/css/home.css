@@ -1,16 +1,11 @@
 /* Jay Wang's reference styles are kept in reference-*.css.
    These additions cover David's CV and semantic HTML/accessibility. */
+.pub-content .pub-summary { font-size: 1.0625rem; line-height: 1.55; margin: .65rem 0 .85rem; }
+.pub-content .pub-title a { box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.pub-content .pub-title a:focus-visible { background: hsla(0,85%,80%,.5); }
 #about, #publications { width: 100%; }
 .name-pic.svelte-f4d8od.svelte-f4d8od { width: 13.75rem; }
-.pub.svelte-f4d8od .paper-preview img.svelte-f4d8od { margin-right: 20px; }
-.text-preview { margin-right: 20px; }
-.paper-preview { flex: none; margin-right: 0; margin-bottom: 10px; }
-.pub .paper-preview img { display: block; margin-right: 0; }
 .pub-content { min-width: 0; }
-.text-preview { width: 250px; height: 140px; background: white !important; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; }
-.text-preview strong { font-size: 1.7rem; font-family: Raleway, sans-serif; }
-.text-preview span { font-size: 13px; }
-.text-preview small { color: #777; font-size: 12px; }
 .citation { font-size: 1rem; margin-top: 6px; }
 .citation summary { cursor: pointer; font-weight: 500; }
 .citation pre { background: #fffbf7; border-radius: 5px; padding: 12px; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-family: 'Roboto Mono', monospace; font-size: .875rem; }

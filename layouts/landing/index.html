@@ -28,32 +28,9 @@
 <p class="svelte-f4d8od">
          Hi, I’m David.
          I’m a PhD student at
-         <a class="highlight-link svelte-f4d8od" href="https://www.eecs.mit.edu/">
-          MIT EECS
-         </a>.
+         <a class="highlight-link svelte-f4d8od" href="https://www.eecs.mit.edu/">MIT EECS</a>.
         </p>
-<p class="svelte-f4d8od">
-         My research focuses on
-         <strong class="svelte-f4d8od">
-          scalable oversight
-         </strong>
-         and
-         <strong class="svelte-f4d8od">
-          alignment
-         </strong>
-         of LLMs. As AI systems become increasingly powerful at an unprecedented speed, it may be tempting to rely on
-         <em class="svelte-f4d8od">
-          defensive
-         </em>
-         methods, such as catching malicious behaviors via CoT monitoring, or building unbreakable sandboxes. I believe these methods will expose us to a huge unpredictable threat surface. My research goal is to solve
-         <em class="svelte-f4d8od">
-          inner alignment
-         </em>: to study how to build or construct
-         <strong class="svelte-f4d8od">
-          provably safe
-         </strong>
-         AI systems. Most recently, I’m exploring how to edit beliefs of LLMs in a provable verified manner.
-        </p>
+<p class="svelte-f4d8od">My research focuses on <strong class="svelte-f4d8od">scalable oversight</strong> and <strong class="svelte-f4d8od">alignment</strong> of LLMs. My research goal is to solve <em class="svelte-f4d8od">inner alignment</em>: to study how to build or construct <strong class="svelte-f4d8od">provably safe</strong> AI systems. Most recently, I'm exploring how to edit beliefs of LLMs in a provable verified manner.</p>
 </div>
 <div class="svelte-f4d8od name-pic">
 <img alt="David Baek" class="svelte-f4d8od" src="{{ with site.GetPage `/authors/admin` }}{{ with .Resources.GetMatch `avatar.*` }}{{ .RelPermalink }}{{ end }}{{ end }}"/>
@@ -108,7 +85,7 @@
             Say Hello
            </a>
 </div>
-<div class="svelte-f4d8od label-text">
+<div class="svelte-f4d8od label-text" hidden>
 <a class="svelte-f4d8od" href="#cv" target="_self">CV</a>
 </div>
 <div class="svelte-f4d8od label-cv">
@@ -199,10 +176,10 @@
 </section>
 <section aria-labelledby="publications-title" class="block-tb svelte-f4d8od" id="publications"><div class="pub-block svelte-f4d8od has-block-name"><h2 class="block-name svelte-f4d8od" id="publications-title">
        Featured Publications
-      </h2><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="Sycophancy Towards Researchers Drives Performative Misalignment" class="paper-preview" href="https://arxiv.org/abs/2606.08629"><img alt="First-page preview: Sycophancy Towards Researchers Drives Performative Misalignment" class="svelte-f4d8od" height="140" loading="lazy" src="/images/publications/performative.png" width="250"/></a>
+      </h2><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od">
 <div class="pub-content svelte-f4d8od">
 <h3 class="pub-title svelte-f4d8od">
-<a class="highlight-link svelte-f4d8od" href="https://arxiv.org/abs/2606.08629">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2606.08629">
            Sycophancy Towards Researchers Drives Performative Misalignment
           </a>
 </h3>
@@ -219,10 +196,15 @@
           </strong>
           ), 2026 ·
          </p>
+<!-- Summary based on the abstract: https://arxiv.org/abs/2606.08629 -->
+<p class="pub-summary">We investigate whether apparent alignment faking can arise from sycophancy toward AI researchers rather than deliberate scheming. Experiments on evaluation awareness, probing and steering, and sycophancy fine-tuning show why these explanations must be disentangled when evaluating model misalignment.</p>
 <p class="pub-icons svelte-f4d8od">
 <a class="svelte-f4d8od" href="https://arxiv.org/abs/2606.08629">
            Paper
           </a>
+
+<!-- TODO_X_URL: performative-misalignment — replace href with the real X post URL. -->
+<a class="publication-x" href="https://x.com/" data-paper="performative-misalignment" title="X post link coming soon">X</a>
 </p>
 <span class="award-highlight svelte-f4d8od">
           Spotlight · Top 2%
@@ -234,10 +216,10 @@
   year = {2026},
   url = {https://arxiv.org/abs/2606.08629}
 }</pre></details></div>
-</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="Scaling Laws for Scalable Oversight" class="paper-preview" href="https://arxiv.org/abs/2504.18530"><img alt="First-page preview: Scaling Laws for Scalable Oversight" class="svelte-f4d8od" height="140" loading="lazy" src="/images/publications/oversight.png" width="250"/></a>
+</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od">
 <div class="pub-content svelte-f4d8od">
 <h3 class="pub-title svelte-f4d8od">
-<a class="highlight-link svelte-f4d8od" href="https://arxiv.org/abs/2504.18530">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2504.18530">
            Scaling Laws for Scalable Oversight
           </a>
 </h3>
@@ -255,6 +237,8 @@
           </strong>
           ), 2025 ·
          </p>
+<!-- Summary based on the abstract: https://arxiv.org/abs/2504.18530 -->
+<p class="pub-summary">We model oversight as a game between systems of unequal capability and quantify how the chance of successful supervision changes with their abilities. Scaling laws across four oversight games inform a theory of nested oversight, identifying when chains of progressively stronger supervisors can succeed and how many levels to use.</p>
 <p class="pub-icons svelte-f4d8od">
 <a class="svelte-f4d8od" href="https://arxiv.org/abs/2504.18530">
            Paper
@@ -262,6 +246,9 @@
 <a class="svelte-f4d8od" href="https://github.com/subhashk01/oversight-scaling-laws">
            Code
           </a>
+
+<!-- TODO_X_URL: scalable-oversight — replace href with the real X post URL. -->
+<a class="publication-x" href="https://x.com/" data-paper="scalable-oversight" title="X post link coming soon">X</a>
 </p>
 <span class="award-highlight svelte-f4d8od">
           Spotlight · Top 3%
@@ -273,10 +260,10 @@
   year = {2025},
   url = {https://arxiv.org/abs/2504.18530}
 }</pre></details></div>
-</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth" class="paper-preview" href="https://arxiv.org/abs/2510.18081"><img alt="First-page preview: Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth" class="svelte-f4d8od" height="140" loading="lazy" src="/images/publications/any-depth.png" width="250"/></a>
+</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od">
 <div class="pub-content svelte-f4d8od">
 <h3 class="pub-title svelte-f4d8od">
-<a class="highlight-link svelte-f4d8od" href="https://arxiv.org/abs/2510.18081">
+<a class="svelte-f4d8od" href="https://arxiv.org/abs/2510.18081">
            Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth
           </a>
 </h3>
@@ -294,10 +281,15 @@
           </strong>
           ), 2026.
          </p>
+<!-- Summary based on the abstract: https://arxiv.org/abs/2510.18081 -->
+<p class="pub-summary">Any-Depth Alignment reintroduces assistant header tokens during generation to activate existing safety behavior, allowing models to refuse harmful continuations without changing their parameters. Across multiple model families, it achieves near-total refusal of adversarial prefills and reduces prompt-attack success below 3% while preserving benign utility.</p>
 <p class="pub-icons svelte-f4d8od">
 <a class="svelte-f4d8od" href="https://arxiv.org/abs/2510.18081">
            Paper
           </a>
+
+<!-- TODO_X_URL: any-depth-alignment — replace href with the real X post URL. -->
+<a class="publication-x" href="https://x.com/" data-paper="any-depth-alignment" title="X post link coming soon">X</a>
 </p>
 <details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2026anydepth,
   title = {Any-Depth Alignment: Unlocking Innate Safety Alignment of LLMs to Any-Depth},
@@ -306,9 +298,9 @@
   year = {2026},
   url = {https://arxiv.org/abs/2510.18081}
 }</pre></details></div>
-</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od"><a aria-label="D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning" class="paper-preview text-preview" href="https://openreview.net/forum?id=To2O1ed5cV"><strong>D-FUSEr</strong><span>Diverse Failure, Unified Success</span><small>ICML 2026</small></a>
+</article></div></div><div class="pub-block svelte-f4d8od"><div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od">
 <div class="pub-content svelte-f4d8od">
-<h3 class="pub-title svelte-f4d8od"><a class="highlight-link svelte-f4d8od" href="https://openreview.net/forum?id=To2O1ed5cV">D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning</a></h3>
+<h3 class="pub-title svelte-f4d8od"><a class="svelte-f4d8od" href="https://openreview.net/forum?id=To2O1ed5cV">D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning</a></h3>
 <p class="pub-author svelte-f4d8od">
 <strong class="svelte-f4d8od">
            David D. Baek*
@@ -322,7 +314,12 @@
           </strong>
           ), 2026.
          </p>
-<p class="pub-icons svelte-f4d8od"><a href="https://openreview.net/forum?id=To2O1ed5cV">Paper</a></p><details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2026dfuser,
+<!-- Summary based on the abstract: https://openreview.net/forum?id=To2O1ed5cV -->
+<p class="pub-summary">D-FUSEr addresses shared mistakes that undermine majority voting and iterative refinement by rewarding diverse errors and predicting common wrong answers as anti-votes. The approach provides theoretical guarantees and improves both inference strategies across three model families and four benchmarks without reducing single-sample accuracy.</p>
+<p class="pub-icons svelte-f4d8od"><a href="https://openreview.net/forum?id=To2O1ed5cV">Paper</a>
+<!-- TODO_X_URL: d-fuser — replace href with the real X post URL. -->
+<a class="publication-x" href="https://x.com/" data-paper="d-fuser" title="X post link coming soon">X</a>
+</p><details class="citation"><summary>BibTeX</summary><pre>@inproceedings{baek2026dfuser,
   title = {D-FUSEr: Diverse Failure, Unified Success via Error-Distribution Shaping in LLM Reasoning},
   author = {David D. Baek and Andrew Estornell and Yichi Zhang and Muhammad Faaiz Taufiq and Jean-François Ton and Jie Mei and Tao Wang},
   booktitle = {ICML},
@@ -330,7 +327,7 @@
   url = {https://openreview.net/forum?id=To2O1ed5cV}
 }</pre></details></div>
 </article></div></div></section>
-<section aria-labelledby="cv-title" class="news-block has-block-name svelte-f4d8od" id="cv">
+<section aria-labelledby="cv-title" class="news-block has-block-name svelte-f4d8od" id="cv" hidden>
 <h2 class="block-name svelte-f4d8od" id="cv-title">
        Curriculum Vitae
       </h2>
